@@ -1,0 +1,526 @@
+﻿
+
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+p a{
+    align-content:center;
+    text-align:center;
+}
+
+
+form {
+    align-content: center;
+    text-align: center;
+}
+
+.row {
+    display: flow;
+    margin: 0;
+}
+
+.descricao {
+    background-color: #E8E6EE;
+    color: #000;
+}
+
+
+    .descricao p {
+        display: flex;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-top: 200px;
+        text-align: left;
+    }
+
+div h3 {
+    justify-content:center;
+    align-content:center;
+    text-align: center;
+}
+
+body {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #eee;
+}
+
+nav {
+    background-image: url(../imagens/ceu6.jpg);
+    justify-content: space-between;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+ul li {
+    margin-right: 12px;
+}
+
+    ul li a {
+        color: #000;
+        text-decoration: none;
+    }
+
+nav img {
+    width: 100px;
+}
+
+section {
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+  
+}
+
+    section h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 40px;
+        border-bottom: 2px solid;
+        color: #000;
+    }
+
+    section h4 {
+        font-size: 25px;
+    }
+
+
+aside h3 {
+    margin-top: 70px;
+}
+
+aside img {
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-top: 10px;
+    position: relative;
+    text-align: left;
+}
+
+
+
+.comBorda {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 12px;
+    border-top: 2px solid #000;
+    margin-top: 20px;
+}
+
+
+
+.carrossel {
+    align-content:flex-end;
+    box-shadow: 2px 2px 2px #000;
+    overflow: hidden;
+    height: 500px;
+    position: relative;
+    width: 500px;
+}
+
+.containere {
+    text-align:center;
+    align-content: center;
+    justify-content:center;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+ .containere img {
+        object-fit: cover;
+        height: 500px;
+        width: 500px;
+    }
+
+ main{
+     align-content:center;
+     text-align:center;
+ }
+
+ thead{
+     align-content:center;
+     text-align:center;
+ }
+
+
+
+ .main{
+     align-content:center;
+     text-align:center;
+ }
+.foto {
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+    25% {
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.foto:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.pContainer {
+    background-color: #eee;
+    padding: 5px;
+                             /*========================================*/
+}
+
+
+
+.produtoPContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+
+   
+}
+
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+                            /*===================================================*/
+}
+
+.produtoImagem {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+#img1 {
+    background-image: url(../imagens/promoções/africa.jpg);
+    height: 70vh;
+}
+
+#img2 {
+    background-image: url(../imagens/promoções/america.jpg);
+    height: 70vh;
+}
+
+#img3 {
+    background-image: url(../imagens/promoções/chile.jpg);
+    height: 70vh;
+
+}
+
+#img4 {
+    background-image: url(../imagens/promoções/europa.jpg);
+    height: 70vh;
+}
+
+#img5 {
+    background-image: url(../imagens/promoções/japão.jpg);
+    height: 70vh;
+
+}
+
+#img6 {
+    background-image: url(../imagens/promoções/litoral_brasil.jpg);
+    height: 70vh;
+
+}
+
+
+h5 {
+    margin-bottom: 10px;
+    color: #000;
+    border-left: 5px solid #000;
+    font-size: 22px;
+    padding-left: 7px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(6, 74, 153);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+    .btn :hover {
+        background-color: rgba(238, 238, 238, 0.514);
+    }
+
+.inicialPromocoes {
+    margin-bottom: 50px;
+}
+
+    .inicialPromocoes span {
+        font-size: 27px;
+        font-weight: bold;
+        padding: 5px;
+        height: 5vh;
+    }
+
+.contato {
+    display: block;
+    align-content:center;
+    margin-top: 50px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.maisUma {
+    display: block;
+    list-style: none;
+    text-align:center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maisOutra a {
+    display: block;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.contato p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.contato span {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+.nav-style {                            /*================================================*/
+    color: #fff;
+    font-weight:bold;
+    height: 100%;
+    display: flex;
+    justify-content:end;
+    background-color:lightblue;
+    background-image:src(../imagens/ceu4.jpg);
+}
+
+
+
+.nav-style class {         
+    color: #fff;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+    background-image: src(../imagens/ceu4.jpg);
+}
+
+
+
+.login {
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cor{
+    color: #fff;
+    font-size:x-large;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+    footer img {
+        width: 80px;
+        size: 20px;
+        padding-left: 30px;
+    }
+
+
+/*@media (max-width: 900px) {
+    .card {
+        width: 100%;
+        padding: 2px;
+        margin:0px;
+    }
+    .produtoPContainer{
+        padding:0px;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+}
+*/
+
+
+@media (max-width: 870px) {
+    .produtoPContainer {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        padding:0px;
+    }
+}
+
+@media(max-width: 1000px){
+    pre{
+        display:none;
+    }
+    .containere{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .descricao{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+}
+

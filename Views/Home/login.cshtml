@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ProjetoNovaViagens.Models.Cliente>
+@{
+    ViewData["Title"] = "Destinos";
+}
+
+
+<div class="login">
+    <form action="#">
+
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <legend>DIGITE LOGIN E SENHA</legend> <br>
+                    </th>
+
+                </tr>
+                </tbody>
+        </table>
+
+
+
+
+
+        
+
+        <span>LOGIN <input type="text" name="username"></span><br>
+        <span>SENHA <input type="password" name="password"></span><br><br>
+        <input type="submit" value="ENVIAR">
+
+
+    </form>
+    <br />
+
+    <div class="cor">
+
+
+
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+
+                        <p>
+                            <a asp-action="Create"> <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Index">Faça seu Cadastro</a></a>
+                        </p>
+
+                       
+                    </th>
+
+                </tr>
+                </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
